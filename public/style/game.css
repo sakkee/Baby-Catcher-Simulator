@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Helvetica;
+
+}
+
+canvas {
+	position: relative;
+  display: none;
+  z-index:-1;
+}
+
+
+
+.inputfields{
+	position:absolute;
+	top:200px;
+	left:110px;
+	width:580px;
+	text-align:center;
+	//margin-left: 220px;
+	//margin-top: 230px;
+	z-index: 1;
+	display: visible;
+	/*background:rgba(0,0,0,0.1);
+	box-shadow:rgba(0, 0, 0, 0.25) 0px 0px 25px;*/
+
+}
+
+.info{
+	word-wrap: break-word;
+	color: #ffffff;
+	font-size:20px;
+	line-height:125%;
+	//max-width:400px;
+	//position: absolute;
+	//margin-left:220px;
+	//margin-top: 100px;
+	z-index:1;
+	text-shadow: #000000 0 0 10px, #000000 2px 2px 2px;
+}
+
+
+
+input {
+	margin:auto;
+	color: #444444;
+	//text-align: center;
+	//width:196px;
+	height:50px;
+	font-size:20px;
+	//margin:2px 0px 2px 0px;
+
+	background-color:#F5F5F5;
+	border-radius:5px;
+	border-style:solid;
+	border-color:#DDDDDD;
+
+}
+input:hover{
+	background-color:#FFFFFF;
+}
+
+.nameField{
+	text-align:center;
+	width:250px;
+	height: 44px
+
+}
+
+.sendName{
+	width:100px;
+
+}
+
+ul {
+	margin-left: 180px;
+}
+
+li {
+	font-size: 24px;
+	color: #fff;
+	text-shadow: #000000 0 0 10px, #000000 2px 2px 2px;
+	text-align:left;
+}
+.score {
+    position:absolute;
+    top:20px;
+    left:10px;
+    color: #ffffff;
+	font-size:24px;
+    z-index:1;
+	text-shadow: #000000 0 0 10px, #000000 2px 2px 2px;
+}
+
+.highscoretable{
+	position:relative;
+	width:60%;
+	left:20%;
+	background-color:#ffffb3;
+	color: #661a00;
+	text-align:left;
+	
+}
+
+table tr{
+	border: 2px solid #804000;
+	box-shadow:0px 0px 5px #804000;
+}
+
+table tr td{
+	padding:5px;
+}
+
+.playAgain{
+	background-color:#ffffb3;
+	color: #661a00;
+	border: 2px solid #804000;
+	box-shadow:0px 0px 5px #804000;
+}

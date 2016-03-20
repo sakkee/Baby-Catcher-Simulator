@@ -1,0 +1,22 @@
+{
+  "name": "Indian-Baby-Catcher-Simulator",
+  "version": "6.0.9",
+  "description": "You have arrived to an Indian ritual of good luck, where babies are thrown from the rooftop of a building. With the help of a co-player, your mission is to catch the babies using a sheet. If the sheet is too tight or loose, the baby won't survive the fall. Use 'A' and 'D' keys to move your character in order to manage the tightness and location of the sheet.",
+  "main": "lib/game.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "lint": "standard --verbose | snazzy"
+  },
+  "author": "idiot kids",
+  "license": "Creative Commons",
+  "dependencies": {
+    "ecstatic": "^1.0.1",
+    "socket.io": "^0.9.16",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^0.7.10",
+    "standard": "^5.3.1"
+  }
+}
